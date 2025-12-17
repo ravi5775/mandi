@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Automatic Question Paper Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-6">
+  <div class="w-full max-w-2xl bg-white rounded-2xl shadow-xl p-8">
+    <h1 class="text-3xl font-bold text-center text-indigo-600 mb-6">Automatic Question Paper Generator</h1>
+    <form action="/generate" method="post" enctype="multipart/form-data" class="space-y-4">
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Subject Name</label>
+        <input name="subject" type="text" required placeholder="e.g. Cloud Computing"
+               class="w-full rounded-lg border p-2" />
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Number of Papers</label>
+        <input name="num_papers" type="number" min="1" max="50" value="9"
+               class="w-full rounded-lg border p-2" />
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Upload Question Bank (.txt or .pdf)</label>
+        <input name="file" type="file" accept=".txt,.pdf" required class="w-full" />
+        <p class="text-xs text-gray-500 mt-1">Make sure your question bank follows the sample format (Unit, Section A, Section B).</p>
+      </div>
+
+      <div class="pt-4">
+        <button type="submit" class="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700 transition">Generate & Download ZIP</button>
+      </div>
+    </form>
+
+    <div class="mt-6 text-sm text-gray-600">
+      <p><strong>Sample format:</strong></p>
+      <pre class="bg-gray-100 rounded p-3 text-xs overflow-auto">Unit I - Introduction to Cloud Computing
+Section A - (2 Marks Questions)
+1. Define cloud computing.
+2. List characteristics.
+...
+Section B - (8 Marks Questions)
+1. Explain cloud service models.
+...
+</pre>
+    </div>
+  </div>
+</body>
+</html>

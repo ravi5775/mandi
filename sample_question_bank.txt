@@ -1,0 +1,81 @@
+Unit I - Introduction to Cloud Computing
+Section A - (2 Marks Questions)
+1. Define cloud computing.
+2. List the essential characteristics of cloud computing.
+3. What are the advantages of cloud computing?
+4. Differentiate between public and private clouds.
+5. What is elasticity in cloud computing?
+6. Name three popular cloud service providers.
+7. Define SaaS with an example.
+8. What are the benefits of scalability in the cloud?
+9. Define IaaS and give one example.
+10. What is PaaS in cloud computing?
+11. Explain on-demand self-service in the cloud.
+12. List the key components of a cloud environment.
+13. Define utility computing.
+14. What is resource pooling?
+15. Name two applications of cloud computing.
+16. What are the limitations of traditional computing?
+17. What is cloud storage?
+18. Define virtualization in the context of cloud computing.
+
+Section B - (8 Marks Questions)
+1. Explain the characteristics and benefits of cloud computing in detail.
+2. Discuss the different types of cloud service models (IaaS, PaaS, SaaS) with examples.
+3. Explain cloud deployment models with neat diagrams.
+4. Describe the evolution of cloud computing and its key enabling technologies.
+5. Compare traditional computing and cloud computing.
+6. Explain how scalability and elasticity are achieved in the cloud.
+7. Discuss in detail the role of utility computing in cloud environments.
+8. Explain the business benefits of adopting cloud computing.
+9. Describe the service-oriented architecture (SOA) in cloud computing.
+10. Explain the importance of virtualization in cloud computing.
+11. Describe cloud service provisioning and metering mechanisms.
+12. Discuss challenges and risks in adopting cloud computing.
+13. Explain cloud interoperability and portability issues.
+14. Illustrate the concept of on-demand self-service with examples.
+15. Discuss the importance of cloud performance monitoring.
+16. Explain the major driving factors behind cloud adoption.
+17. Describe cloud computing reference architecture.
+18. Discuss the concept of multi-tenancy in cloud computing.
+
+Unit II - Cloud Architecture and Virtualization
+Section A - (2 Marks Questions)
+1. Define virtualization.
+2. What is a hypervisor?
+3. List types of virtualization.
+4. Differentiate between Type 1 and Type 2 hypervisors.
+5. Define virtual machine monitor (VMM).
+6. What is full virtualization?
+7. Explain paravirtualization.
+8. What is VM migration?
+9. Define cloud architecture.
+10. What is load balancing in cloud?
+11. Explain the concept of cloud resource management.
+12. What is a virtual private cloud?
+13. Define cloud middleware.
+14. What are virtual machine images?
+15. What is the purpose of API in cloud?
+16. List cloud infrastructure components.
+17. What is storage virtualization?
+18. Define server consolidation.
+
+Section B - (8 Marks Questions)
+1. Explain cloud architecture with a neat diagram and describe each layer.
+2. Discuss various types of virtualization with examples.
+3. Explain the working of hypervisors and their types.
+4. Describe virtual machine provisioning and management in the cloud.
+5. Discuss VM migration techniques and their importance.
+6. Explain load balancing techniques used in cloud systems.
+7. Describe the architecture of IaaS in detail.
+8. Explain cloud storage architecture and its working.
+9. Discuss server and storage virtualization in cloud computing.
+10. Explain cloud resource provisioning and scheduling mechanisms.
+11. Illustrate cloud network architecture with examples.
+12. Discuss the challenges in managing virtualized environments.
+13. Describe the concept of virtual networking and its advantages.
+14. Explain the importance of middleware in cloud architecture.
+15. Discuss the various components of cloud infrastructure management.
+16. Explain cloud resource allocation and utilization strategies.
+17. Describe the process of VM creation and deployment.
+18. Explain cloud system monitoring and management tools.
