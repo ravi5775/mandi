@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, send_file, redirect, url_for, flash
+import shutil
 import os
 import tempfile
 from question_paper_generator import parse_question_bank_from_text, generate_question_paper, create_zip, extract_text_from_pdf
