@@ -1,3 +1,5 @@
-flask
+Flask
+gunicorn
 reportlab
 pdfplumber
+PyPDF2
